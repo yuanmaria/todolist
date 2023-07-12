@@ -1,6 +1,25 @@
 .todolist {
-}
-
-.todolist__items {
-    margin-top: 1rem;
+  .todolist__form {
+      display: flex;
+      flex-direction: row;
+      align-items: left;
+      margin-top: 1rem;
+      .submit-button {
+        color: white;
+        background-color: blue;
+        border: none;
+        border-radius: 0.25rem;
+        padding: 0.25rem 0.5rem;
+        margin-left: 0.5rem;
+        font-weight: 600;
+        cursor: pointer;
+        &:hover {
+          background-color: #0069d9;
+        }
+      }
+  }
+  
+  .todolist__items {
+      margin-top: 1rem;
+  }
 }
